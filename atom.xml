@@ -4,7 +4,7 @@
   
   <link href="/hexo-theme-icarus/atom.xml" rel="self"/>
   <link href="http://itsmagic.co.kr/hexo-theme-icarus/"/>
-  <updated>2015-11-12T03:14:45.538Z</updated>
+  <updated>2015-11-20T07:50:30.243Z</updated>
   <id>http://itsmagic.co.kr/hexo-theme-icarus/</id>
   
   <author>
@@ -19,10 +19,15 @@
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2015/11/10/hexo/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2015/11/10/hexo/</id>
     <published>2015-11-10T17:34:17.000Z</published>
-    <updated>2015-11-12T03:14:45.538Z</updated>
+    <updated>2015-11-20T07:50:30.243Z</updated>
     <content type="html"><![CDATA[<p>wordpress를 떠나 hexo로 블로그를 이전 완료. </p>
 <p>Server는 <a href="https://www.digitalocean.com/" target="_blank" rel="external">DigitalOcean</a>에서 <code>Ubuntu node v4.1.0 on 14.04</code> 로 신청후 맥에서 ssh로 접속해 모든 환경 설정을 진행하였다. 메일은 <a href="https://www.worksmobile.com/kr/" target="_blank" rel="external">네이버웍스</a>로  Mx Record를 설정했다.</p>
 <p>세팅하면서 가장 만족스러웠던것은 DigitalOcean. 기존에 사용하던 국내 호스팅들과는 다르게 서버 권한에 대한 걱정없이 로컬서버를 세팅하듯 모든것이 가능했다. 서버도 싱가폴에 있다지만 속도도 전혀 문제없는 수준. 추후 각 단계별로 진행 사항을 상세히 블로깅 해보아야겠다. </p>
+<hr>
+<p><em>151120 업데이트</em></p>
+<ul>
+<li>IE9.js / respond.js를 사용해 IE9까지 테마 호환성 업데이트. IE8는 본문을 읽을 수 있을 정도로 지원.</li>
+</ul>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>wordpress를 떠나 hexo로 블로그를 이전 완료. </p>
