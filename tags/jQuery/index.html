@@ -1,35 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<!-- Head tag -->
 <head>
-  <meta charset="utf-8">
-  
-  <title>Tag: jQuery | Itsmagic.co.kr</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Tech Blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Itsmagic.co.kr">
-<meta property="og:url" content="http://itsmagic.co.kr/hexo-theme-icarus/tags/jQuery/index.html">
-<meta property="og:site_name" content="Itsmagic.co.kr">
-<meta property="og:description" content="Tech Blog">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Itsmagic.co.kr">
-<meta name="twitter:description" content="Tech Blog">
-  
-    <link rel="alternative" href="/atom.xml" title="Itsmagic.co.kr" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/favicon.png">
-  
-  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="/hexo-theme-icarus/css/style.css" type="text/css">
-  
+
+    <!-- Title -->
+    
+    <title>jQuery - Itsmagic.co.kr</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Description-->
+    
+        <meta name="description" content="Tech Blog">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="NyxChung">
+    
+
+    <!--Favicon-->
+    
+      <link rel="icon" href="images/favicon.ico">
+    
+
+    <!--Open Graph Title-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Itsmagic.co.kr"/>
+
+    <!--Page Cover-->
+    
+        <meta property="og:image" content="undefined"/>
+    
+
+
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/hexo-theme-icarus/sass/main.css" type="text/css">
+
+    <!--[if lt IE 8]>
+        <script src="/hexo-theme-icarus/js/ie/html5shiv.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" href="/hexo-theme-icarus/sass/ie8.css" type="text/css">
+    <![endif]-->
+
+
+    <!-- Google Analytics -->
+    
+
 
 </head>
-<body>
-  <div id="container">
-    <div id="wrap">
-      <div class="outer">
-        <section id="main">
+
+
+<body id="top">
+
+    <!-- Header -->
+    <header id="header">
+  <div class="inner">
+    <a href="/" class="image avatar"><img src="http://www.gravatar.com/avatar/e6cfae2d726e15821ea3c4f0848d5451" alt="" /></a>    <h1><strong>This is Strata</strong>, a free, fully responsive site<br />template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+  </div>
+</header>
+
+
+    <!-- Main -->
+		<div id="main">
+
+      <!-- Main Content -->
+      
   
   
     
@@ -37,7 +80,7 @@
       
       
       <section class="archives-wrap">
-        <div class="archive-year-wrap">
+        <div class="archive-year">
           <a href="/hexo-theme-icarus/archives/2010" class="archive-year">2010</a>
         </div>
         <div class="archives">
@@ -45,86 +88,165 @@
     <article class="archive-article archive-type-post">
   <div class="archive-article-inner">
     <header class="archive-article-header">
-      <a href="/hexo-theme-icarus/2010/12/13/javascript-loader-head-js/" class="archive-article-date">
-  <time datetime="2010-12-14T01:25:17.000Z" itemprop="datePublished">Dec 14</time>
-</a>
-      
+      <div class="meta">
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/hexo-theme-icarus/2010/12/13/javascript-loader-head-js/">JavaScript loader Head.js 자바스크립트를 빠르게 로딩하자.</a>
-    </h1>
+      <span class="date">
+          2010-12-13
+      </span>
+  
+
+  
+    <span class="meta-separator"> | </span>
+  
+
+  
+  
+  <span class="article-category">
+    <a class="article-category-link" href="/hexo-theme-icarus/categories/Javascript/">Javascript</a>
+  </spamn>
+
+
+
+</div>
+
+      
+    
+      <h1 itemprop="name">
+        JavaScript loader Head.js 자바스크립트를 빠르게 로딩하자.
+      </h1>
+    
   
 
     </header>
+
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><img src="http://i.imgur.com/u33Xnmr.jpg" alt=""></p>
+<p>이미 아는분들을 아는 head.js를 직접 써봤습니다. 결과는 빠르네요!</p>
+<p>모바일 페이지를 연습 삼아 작업에 들어갔는데 jQuery 라이브러리와 jQuery모바일 라이브러리만 로드 시켰을뿐인데 로딩 속도가 아이폰에서 급감하는것을 발견. head.js가 바로 생각났습니다. 적용시켜보니 역시 느린 모바일에선 티가 많이 나는군요. 물론 웹에서도 효과가 충분한것 같습니다.</p>
+<p>원리는 순차적으로 로드되는 js들을 병렬방식으로 로드 시켜 속도를 올려준다는군요. 그 이외에도 이런저런 추가기능이 있는 버전과 순수 로딩 속도를 높여주는 기능만 가진 버전 2가지가 있는데 다른 기능들도 차차 써봐야겠습니다.</p>
+<p>사용법은 head.js를 삽입하고 다음과 같이 js들을 로드하면 됩니다.<br>`<br>// the most simple case. load and execute single script without blocking.<br>head.js(“/path/to/file.js”);</p>
+<p>// load a script and execute a function after it has been loaded<br>head.js(“/path/to/file.js”, function() {</p>
+<p>});</p>
+<p>// load files in parallel but execute them in sequence<br>head.js(“file1.js”, “file2.js”, … “fileN.js”);</p>
+<p>// execute function after all scripts have been loaded<br>head.js(“file1.js”, “file2.js”, function() {</p>
+<p>});</p>
+<p>// files are loaded in parallel and executed in order they arrive<br>head.js(“file1.js”);<br>head.js(“file2.js”);<br>head.js(“file3.js”);</p>
+<p>// the previous can also be written as<br>head.js(“file1.js”).js(“file1.js”).(“file3.js”);<br>`<br>속도 차이를 볼수 있는 <a href="http://headjs.com/test/script.html" title="새창으로 열림" target="_blank" rel="external">데모페이지</a>. SCRIPT SRC in head / SCRIPT SRC in bottom / head.js on head 나눠서 확인할 수 있습니다.</p>
+<p>다운로드 및 자세한 사항은 <a href="http://headjs.com/" title="새창으로 열림" target="_blank" rel="external">개발 사이트</a>에서 확인 가능합니다.</p>
+<p><strong>* 모바일에 사용해본 결과 단순히 저렇게 불러들일시 jQueury모바일이나 JQTOUCH를 head로 로딩할시 DOM이 뼈다귀처럼 로딩이 된후 솔루션들이 먹히는 단점이 있군요.</strong></p>
+
+      
+    </div>
   </div>
 </article>
+
   
   
     </div></section>
   
-</section>
-        <aside id="sidebar">
-  <nav class="menus">
-  	<ul>
-  		<li><a href="/"><i class="icon icon-home"></i></a></li>
-  		
-			<li><a href="/archives"><i class="icon icon-fenlei"></i></a></li>
-  		
-  		
-			<li><a href="/tags"><i class="icon icon-tag"></i></a></li>
-  		
-  		
-  			<li><a href="https://github.com/" target="_blank"><i class="icon icon-github"></i></a></li>
-  		
-  	</ul>
-  </nav>
-  <a id="go-top" href="#"><i class="icon icon-up"></i></a>
-</aside>
+
+
+
+
+
+      <!-- Three - the contact form is on every page! -->
+        <section id="three">
+          <h2>Get In Touch</h2>
+<p>Us a service like Google forms or formspree to modify this partial in _partials/contact-form.</p>
+<div class="row">
+  <div class="8u 12u$(small)">
+    <form method="post" action="#">
+      <div class="row uniform 50%">
+        <div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
+        <div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
+        <div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
       </div>
-      <footer id="footer">
-  
-	<div id="footer-info" class="inner">
-	  &copy; 2017 NyxChung 
-	  - Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-	  - Theme <a href="https://github.com/hejianxian/hexo-theme-jane/" target="_blank">Jane</a>
-	</div>
+    </form>
+    <ul class="actions">
+      <li><input type="submit" value="Send Message" /></li>
+    </ul>
+  </div>
+  <div class="4u$ 12u$(small)">
+    <ul class="labeled-icons">
+      <li>
+        <h3 class="icon fa-home"><span class="label">Address</span></h3>
+        1234 Somewhere Rd.<br />
+        Nashville, TN 00000<br />
+        United States
+      </li>
+      <li>
+        <h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
+        000-000-0000
+      </li>
+      <li>
+        <h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
+        <a href="#">hello@untitled.tld</a>
+      </li>
+    </ul>
+  </div>
+</div>
+        </section>
+
+        <!-- Footer -->
+<footer id="footer">
+    <div class="inner">
+
+        <ul class="icons">
+            
+                <li><a href="https://twitter.com/?lang=en" class="icon fa-twitter" target="_blank" ><span class="label">Twitter</span></a></li>
+            
+            
+                <li><a href="https://www.facebook.com/" class="icon fa-facebook" target="_blank" ><span class="label">Facebook</span></a></li>
+            
+            
+                <li><a href="https://www.instagram.com/" class="icon fa-instagram" target="_blank" ><span class="label">Instagram</span></a></li>
+            
+            
+                <li><a href="https://dribbble.com/" class="icon fa-dribbble" target="_blank" ><span class="label">Dribbble</span></a></li>
+            
+            
+                <li><a href="https://github.com/klugjo/hexo-theme-phantom/commits?author=klugjo" class="icon fa-github" target="_blank" ><span class="label">GitHub</span></a></li>
+            
+            
+                <li><a href="https://plus.google.com/" class="icon fa-google-plus" target="_blank" ><span class="label">Google+</span></a></li>
+            
+            
+                <li><a href="https://www.behance.net/" class="icon fa-behance" target="_blank" ><span class="label">Behance</span></a></li>
+            
+            
+                <li><a href="https://500px.com/" class="icon fa-500px" target="_blank" ><span class="label">500px</span></a></li>
+            
+            
+                <li><a href="\#" class="icon fa-envelope-o" target="_blank" ><span class="label">Email</span></a></li>
+            
+            
+                <li><a href="\#" class="icon  fa-rss" target="_blank" ><span class="label">RSS</span></a></li>
+            
+        </ul>
+
+        <ul class="copyright">
+            <li>&copy; Untitled. All rights reserved</li>
+            <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
+            <li>Hexo: <a href="http://livingos.com/" target="_blank">Tim Hyde</a></li>
+        </ul>
+    </div>
 </footer>
 
+        
     </div>
-    <nav id="mobile-nav">
+
+    <!-- After footer scripts -->
+      <!-- Scripts -->
+  <script src="/hexo-theme-icarus/js/jquery.min.js" type="text/javascript"></script>  <script src="/hexo-theme-icarus/js/jquery.poptrox.min.js" type="text/javascript"></script>  <script src="/hexo-theme-icarus/js/skel.min.js" type="text/javascript"></script>  <script src="/hexo-theme-icarus/js/util.js" type="text/javascript"></script>
+  <!--[if lte IE 8]>
+  <script src="/hexo-theme-icarus/js/ie/respond.min.js" type="text/javascript"></script>
+  <![endif]-->
+
+  <script src="/hexo-theme-icarus/js/main.js" type="text/javascript"></script>
+  <!-- Disqus Comments -->
   
-    <a href="/" class="mobile-nav-link">Home</a>
-  
-    <a href="/archives" class="mobile-nav-link">Archives</a>
-  
-    <a href="/tags" class="mobile-nav-link">Tag</a>
-  
-    <a href="https://github.com/" class="mobile-nav-link">Github</a>
-  
-</nav>
-    
-<script>
-  var disqus_shortname = 'itsmagic-co-kr';
-  
-  (function(){
-    var dsq = document.createElement('script');
-    dsq.type = 'text/javascript';
-    dsq.async = true;
-    dsq.src = '//' + disqus_shortname + '.disqus.com/count.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
 
 
-<script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
-
-
-  <link rel="stylesheet" href="/hexo-theme-icarus/fancybox/jquery.fancybox.css" type="text/css">
-  <script src="/hexo-theme-icarus/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-
-
-<script src="/hexo-theme-icarus/js/script.js" type="text/javascript"></script>
-
-  </div>
 </body>
 </html>
