@@ -1,25 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Itsmagic.co.kr]]></title>
+  <title>Itsmagic.co.kr</title>
   
   <link href="/hexo-theme-icarus/atom.xml" rel="self"/>
+  
   <link href="http://itsmagic.co.kr/hexo-theme-icarus/"/>
   <updated>2015-11-20T07:50:30.243Z</updated>
   <id>http://itsmagic.co.kr/hexo-theme-icarus/</id>
   
   <author>
-    <name><![CDATA[NyxChung]]></name>
-    <email><![CDATA[neonyx@nate.com]]></email>
+    <name>NyxChung</name>
+    <email>neonyx@nate.com</email>
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Hexo 블로그 이전완료]]></title>
+    <title>Hexo 블로그 이전완료</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2015/11/10/hexo/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2015/11/10/hexo/</id>
     <published>2015-11-10T17:34:17.000Z</published>
     <updated>2015-11-20T07:50:30.243Z</updated>
+    
     <content type="html"><![CDATA[<p>wordpress를 떠나 hexo로 블로그를 이전 완료. </p>
 <p>Server는 <a href="https://www.digitalocean.com/" target="_blank" rel="external">DigitalOcean</a>에서 <code>Ubuntu node v4.1.0 on 14.04</code> 로 신청후 맥에서 ssh로 접속해 모든 환경 설정을 진행하였다. 메일은 <a href="https://www.worksmobile.com/kr/" target="_blank" rel="external">네이버웍스</a>로  Mx Record를 설정했다.</p>
 <p>세팅하면서 가장 만족스러웠던것은 DigitalOcean. 기존에 사용하던 국내 호스팅들과는 다르게 서버 권한에 대한 걱정없이 로컬서버를 세팅하듯 모든것이 가능했다. 서버도 싱가폴에 있다지만 속도도 전혀 문제없는 수준. 추후 각 단계별로 진행 사항을 상세히 블로깅 해보아야겠다. </p>
@@ -29,19 +31,24 @@
 <li>IE9.js / respond.js를 사용해 IE9까지 테마 호환성 업데이트. IE8는 본문을 읽을 수 있을 정도로 지원.</li>
 </ul>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>wordpress를 떠나 hexo로 블로그를 이전 완료. </p>
-<p>Server는 <a href="https://www.digitalocean.com/" target="_blank" rel="external">DigitalOcean</a>에서]]>
+    
+      &lt;p&gt;wordpress를 떠나 hexo로 블로그를 이전 완료. &lt;/p&gt;
+&lt;p&gt;Server는 &lt;a href=&quot;https://www.digitalocean.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;DigitalOcean&lt;/a&gt;에서
+    
     </summary>
+    
     
   </entry>
   
   <entry>
-    <title><![CDATA[CSS Filter Effects WebKit에 안착]]></title>
+    <title>CSS Filter Effects WebKit에 안착</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/12/27/css-filter-effects-webkit/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/12/27/css-filter-effects-webkit/</id>
     <published>2011-12-27T11:32:51.000Z</published>
     <updated>2015-11-11T06:10:43.518Z</updated>
+    
     <content type="html"><![CDATA[<p>기존에 FF에만 되던 CSS Filter기능이 드디어 웹킷 브라우저에도 적용되기 시작했다고 합니다.</p>
 <ul>
 <li>FF 3.5버전 이상에서 <a href="http://paulirish.com/work/videooo.xhtml" target="_blank" rel="external">http://paulirish.com/work/videooo.xhtml</a> 에 접속해보면 간단한 예제들을 접하실 수 있습니다.</li>
@@ -52,26 +59,31 @@
 <p><strong>W3C 문서</strong><br><a href="https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html" target="_blank" rel="external">https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html</a></p>
 <p><strong>원문출처</strong><br><a href="http://updates.html5rocks.com/2011/12/CSS-Filter-Effects-Landing-in-WebKit" target="_blank" rel="external">http://updates.html5rocks.com/2011/12/CSS-Filter-Effects-Landing-in-WebKit</a></p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>기존에 FF에만 되던 CSS Filter기능이 드디어 웹킷 브라우저에도 적용되기 시작했다고 합니다.</p>
-<ul>
-<li>FF 3.5버전 이상에서 <a href="http://paulirish.com/work/videooo.xhtml" targ]]>
+    
+      &lt;p&gt;기존에 FF에만 되던 CSS Filter기능이 드디어 웹킷 브라우저에도 적용되기 시작했다고 합니다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;FF 3.5버전 이상에서 &lt;a href=&quot;http://paulirish.com/work/videooo.xhtml&quot; targ
+    
     </summary>
+    
+      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
+    
     
       <category term="CSS3" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/CSS3/"/>
     
       <category term="Webkit" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/Webkit/"/>
     
-      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[윈도우8 과 IE10 개발자 프리뷰 버전 출시]]></title>
+    <title>윈도우8 과 IE10 개발자 프리뷰 버전 출시</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/09/14/ie10_preview/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/09/14/ie10_preview/</id>
     <published>2011-09-15T01:15:41.000Z</published>
     <updated>2015-11-11T05:48:54.050Z</updated>
+    
     <content type="html"><![CDATA[<p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">Windows 8 개발자 프리뷰 버전이 공개되면서 IE10도 같이 공개가 되었는데요 IE10에서 주요 변경점은 당연히 지원됬어야 했었지만 포함되지 않아 IE9때 비난의 대상이 되었었던 HTML5/CSS3 기능들에 대한 지원들이 추가되었습니다.</span></p>
 <p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">아 참고로 IE10은 참으로 안타깝게도 VISTA도 사용 불가능하며 윈7/윈8에서만 돌아갑니다. 떨어져만 가는 IE점유율을 OS 판매의 도구로 잘 활용할지 아니면 둘다 추락할지 지켜봐야할듯 하네요.</span></p>
 <ul>
@@ -92,9 +104,17 @@
 <p><strong>IE10 성능체크 Test Drive
 </strong><a href="http://ie.microsoft.com/testdrive/Default.html" target="_blank" rel="external">http://ie.microsoft.com/testdrive/Default.html</a></p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p><span style="font-family: 나눔고딕, NanumGothic, sans-serif;">Windows 8 개발자 프리뷰 버전이 공개되면서 IE10도 같이 공개가 되었는데요 IE10에서 주요 변경점은 당연히 지원됬어야 했었지만 포함]]>
+    
+      &lt;p&gt;&lt;span style=&quot;font-family: 나눔고딕, NanumGothic, sans-serif;&quot;&gt;Windows 8 개발자 프리뷰 버전이 공개되면서 IE10도 같이 공개가 되었는데요 IE10에서 주요 변경점은 당연히 지원됬어야 했었지만 포함
+    
     </summary>
+    
+      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
+    
+      <category term="Tech information" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/Tech-information/"/>
+    
     
       <category term="CSS3" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/CSS3/"/>
     
@@ -106,18 +126,15 @@
     
       <category term="Windows8" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/Windows8/"/>
     
-      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
-    
-      <category term="Tech information" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/Tech-information/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[CSS3 에니메이션 툴 모음]]></title>
+    <title>CSS3 에니메이션 툴 모음</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/09/04/cssanimation/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/09/04/cssanimation/</id>
     <published>2011-09-05T02:12:12.000Z</published>
     <updated>2015-11-11T05:48:13.370Z</updated>
+    
     <content type="html"><![CDATA[<p>CSS3의 경우 각종툴을 이용한 활용이 많을것으로 보이는데요 이중에서 CSS3를 활용한 에니메이션 효과를 다루는 어떤 툴들이 나와있고 준비중인지 한번 정리해 보았습니다.</p>
 <p>아직은 이러한 툴들이 CSS3의 지원에 관한 PC의 경우 하위 호환 문제가 있고 모바일에서도 안드로이드쪽에서 지원되지 않는 속성들도 있지만 시간이 흐르면 웹 작업의 큰축을 담당할것 같습니다. 솔직히 하드코딩으로 각 수치를 계산해가며 작업하는건 비효율적이죠.</p>
 <p>조금 사용해본 결과 이러한 타임라인 기반의 Animation 툴들이 배너나 프로모션 작업에 상당히 유용해 보였습니다. 아직은 초기 버전들이라 소스모드나 부족한 점이 많지만 초기 버전임에도 불구하고 꽤 활용가치가 있어 보였습니다. 왠지 다음 버전의 Dreamweaver에도 어느정도 이런 기능들이 추가되지 않을까 싶네요.</p>
@@ -143,21 +160,26 @@
 <p><a href="http://matthamm.com/box-shadow-curl.html" target="_blank" rel="external">http://matthamm.com/box-shadow-curl.html</a> (박스쉐도우를 이용한 이쁜 효과)<br><a href="http://www.colorzilla.com/gradient-editor/" target="_blank" rel="external">http://www.colorzilla.com/gradient-editor/</a> (그라데이션 생성 툴. 직접 생성도 가능하며 PSD에서 그라데이션을 이쁘게 잘라서 업로드 하면 색정보를 추출하여 CSS3로 변환도 시켜줍니다)<br><a href="http://css3maker.com/" target="_blank" rel="external">http://css3maker.com/</a> (종합선물세트)<br><a href="http://layerstyles.org/builder.html" target="_blank" rel="external">http://layerstyles.org/builder.html</a> (포토샵 속성 스타일의 레이어 스타일 툴)<br><a href="http://prefixr.com/" target="_blank" rel="external">http://prefixr.com/</a> (CSS3의 Prefix 자동 생성툴)<br><a href="http://matthewlein.com/ceaser/" target="_blank" rel="external">http://matthewlein.com/ceaser/</a> (easing 효과 생성기)</p>
 <p>&nbsp;</p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>CSS3의 경우 각종툴을 이용한 활용이 많을것으로 보이는데요 이중에서 CSS3를 활용한 에니메이션 효과를 다루는 어떤 툴들이 나와있고 준비중인지 한번 정리해 보았습니다.</p>
-<p>아직은 이러한 툴들이 CSS3의 지원에 관한 PC의 경우 하위 ]]>
+    
+      &lt;p&gt;CSS3의 경우 각종툴을 이용한 활용이 많을것으로 보이는데요 이중에서 CSS3를 활용한 에니메이션 효과를 다루는 어떤 툴들이 나와있고 준비중인지 한번 정리해 보았습니다.&lt;/p&gt;
+&lt;p&gt;아직은 이러한 툴들이 CSS3의 지원에 관한 PC의 경우 하위 
+    
     </summary>
     
       <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
     
+    
   </entry>
   
   <entry>
-    <title><![CDATA[[공유] iOS5에서 모바일 사파리 관련 변경점]]></title>
+    <title>[공유] iOS5에서 모바일 사파리 관련 변경점</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/06/13/ios5/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/06/13/ios5/</id>
     <published>2011-06-13T06:31:14.000Z</published>
     <updated>2015-11-11T05:49:50.714Z</updated>
+    
     <content type="html"><![CDATA[<p>iOS5에서 모바일 사파리 관련 변경점이 있어서 공유드립니다.<br>영문 자료 이나 제목과 천절히 테스트 동영상까지 있네요.</p>
 <blockquote>
 <p>간략 정리<br>1. bad news - (input type=”file”)이 여전히 포함되지 않음<br>2. position:fixed 추가<br>3. overflow:scroll 가능<br>4. date,datetime,month.time,range의 input타입에 입력스타일(어플과 동일한) 지원.<br>5. iOS3 초기 버전이후로 사라졌던 webworkers의 재등장</p>
@@ -165,11 +187,17 @@
 <p>overflow:scroll이 지원되나 아쉽게도 투핑거로 되던 기능이 원핑거로 가능해진 정도이며 여전히 기본적으로 스크롤바 노출이 사용자가 해당 부분이 스크롤 영역인지를 확인할 수 있는 외형적 변화가 없어서 아쉽네요. 이 부분은 여전히 스크롤바를 표시해주려면 js의 힘이 필요할 듯 합니다.</p>
 <p><a href="http://davidbcalhoun.com/2011/new-mobile-safari-stuff-in-ios5-position-fixed-overflow-scroll-new-input-type-support-web-workers-ecmascript-5" target="_blank" rel="external">http://davidbcalhoun.com/2011/new-mobile-safari-stuff-in-ios5-position-fixed-overflow-scroll-new-input-type-support-web-workers-ecmascript-5</a></p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>iOS5에서 모바일 사파리 관련 변경점이 있어서 공유드립니다.<br>영문 자료 이나 제목과 천절히 테스트 동영상까지 있네요.</p>
-<blockquote>
-<p>간략 정리<br>1. bad news - (input type=”file”)이 여전히]]>
+    
+      &lt;p&gt;iOS5에서 모바일 사파리 관련 변경점이 있어서 공유드립니다.&lt;br&gt;영문 자료 이나 제목과 천절히 테스트 동영상까지 있네요.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;간략 정리&lt;br&gt;1. bad news - (input type=”file”)이 여전히
+    
     </summary>
+    
+      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
+    
     
       <category term="iOS5" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/iOS5/"/>
     
@@ -177,25 +205,30 @@
     
       <category term="iPhone" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/iPhone/"/>
     
-      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[인접한 img/input요소와 텍스트와의 세로정렬]]></title>
+    <title>인접한 img/input요소와 텍스트와의 세로정렬</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/05/09/vertical/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/05/09/vertical/</id>
     <published>2011-05-09T08:06:37.000Z</published>
     <updated>2015-11-11T05:23:42.802Z</updated>
+    
     <content type="html"><![CDATA[<p>마크업을 배울대 막 초급을때고 중급으로 들어오면서 마크업할때마다 헷갈렸던게</p>
 <p>img와 input들과 인접한 텍스트들의 세로 정렬 문제였다. 단순히 vertical-aling:middle이 아니라 1px씩 조절해줘야하는 상황도 있엇는데 그럴때마다 해결은 하는데 항상 할때마다 다시 생각해내고 했던적이 한두번이 아니어서 시간이 생겨 한번 해당 사항을 정리해 보았다.</p>
 <p>block과 inline의 특성을 모두 가진 display:inline-block을 쓰고 요소들을 vertical-align으로 정렬후 margin에 음수값으로 조절한다. 인접한 요소의 크기에 따라 부모 높이에 영향을 주니 잘 고려하자.</p>
 <p><a href="http://itsmagic.co.kr/hexo-theme-icarus/vertical.html" title="새창으로 열림">문서보기</a></p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>마크업을 배울대 막 초급을때고 중급으로 들어오면서 마크업할때마다 헷갈렸던게</p>
-<p>img와 input들과 인접한 텍스트들의 세로 정렬 문제였다. 단순히 vertical-aling:middle이 아니라 1px씩 조절해줘야하는 상황도 있엇는데 ]]>
+    
+      &lt;p&gt;마크업을 배울대 막 초급을때고 중급으로 들어오면서 마크업할때마다 헷갈렸던게&lt;/p&gt;
+&lt;p&gt;img와 input들과 인접한 텍스트들의 세로 정렬 문제였다. 단순히 vertical-aling:middle이 아니라 1px씩 조절해줘야하는 상황도 있엇는데 
+    
     </summary>
+    
+      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
+    
     
       <category term="css" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/css/"/>
     
@@ -203,16 +236,15 @@
     
       <category term="마크업" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/%EB%A7%88%ED%81%AC%EC%97%85/"/>
     
-      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[[IE9] 상위/iframe DTD 정의에 따른 iframe의 랜더링 차이 issue]]></title>
+    <title>[IE9] 상위/iframe DTD 정의에 따른 iframe의 랜더링 차이 issue</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/05/03/ie9_iframe/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/05/03/ie9_iframe/</id>
     <published>2011-05-03T07:05:16.000Z</published>
     <updated>2015-11-11T05:46:55.242Z</updated>
+    
     <content type="html"><![CDATA[<p>쿽스와 표준의 혼용  작업이 있는 작업시 참고하여야 할것 같습니다.<br>같은  증상을 확인하셨거나 다른 테스트 결과가 나오시는 분들은 의견 부탁드립니다.</p>
 <p><strong>요약</strong><br>일반적으로 iframe의 렌더링은 iframe내부의 DTD지정에 따르나 상위가 표준모드 이고 iframe이 쿽스모드일 경우 IE9는 쿽스대신 표준모드로 iframe을 랜더링 하는 이슈.<br>(추가 버그로 iframe내부의 랜더링은 표준 모드로 랜더링 하나 iframe내부에서 a테그 이외에 슈도클래스 사용불가.*상위는 정상  작동)</p>
 <ul>
@@ -221,10 +253,16 @@
 <p><strong>참고URL</strong><br><a href="http://itsmagic.co.kr/hexo-theme-icarus/ie9_test.html">http://itsmagic.co.kr/hexo-theme-icarus/ie9_test.html</a></p>
 <p>IE9이 설치가  안된분들을 위해 IE9용 스크린샷 넣어 두었습니다.</p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>쿽스와 표준의 혼용  작업이 있는 작업시 참고하여야 할것 같습니다.<br>같은  증상을 확인하셨거나 다른 테스트 결과가 나오시는 분들은 의견 부탁드립니다.</p>
-<p><strong>요약</strong><br>일반적으로 iframe의 렌더링은 i]]>
+    
+      &lt;p&gt;쿽스와 표준의 혼용  작업이 있는 작업시 참고하여야 할것 같습니다.&lt;br&gt;같은  증상을 확인하셨거나 다른 테스트 결과가 나오시는 분들은 의견 부탁드립니다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;요약&lt;/strong&gt;&lt;br&gt;일반적으로 iframe의 렌더링은 i
+    
     </summary>
+    
+      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
+    
     
       <category term="IE9" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/IE9/"/>
     
@@ -236,16 +274,15 @@
     
       <category term="markup" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/markup/"/>
     
-      <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
-    
   </entry>
   
   <entry>
-    <title><![CDATA[Aptana 3 실행시 에러를 내며 실행되지 않을때]]></title>
+    <title>Aptana 3 실행시 에러를 내며 실행되지 않을때</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/04/28/aptana3/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/04/28/aptana3/</id>
     <published>2011-04-29T03:24:17.000Z</published>
     <updated>2015-11-11T05:50:29.818Z</updated>
+    
     <content type="html"><![CDATA[<p>한글 계정명 이거나 한글 윈도우7을 쓰면 user폴더 이름이 ‘사용자’로 바뀌어 있어 Aptana3가 실행이 되지 않고 다음 에러를 뿌립니다.</p>
 <p>“Could not launch the product because the specified workspace cannot be created. The specified workspace directory is either invalid or read-only.”</p>
 <p>다음과 같이 바로가기에 우클릭해서 속성을 띄운후 ‘대상(T)’에 옵션을 주어 실행합니다</p>
@@ -253,50 +290,63 @@
 <p><a href="http://itsmagic.co.kr/wordpress/?attachment_id=134"><img src="http://itsmagic.co.kr/wordpress/wp-content/uploads/2011/04/Untitled-1.jpg" alt="" title="Untitled-1"></a></p>
 <address>Aptana Download<br><a href="http://www.aptana.com/products/studio3/download" target="_blank" rel="external">http://www.aptana.com/products/studio3/download</a></address>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>한글 계정명 이거나 한글 윈도우7을 쓰면 user폴더 이름이 ‘사용자’로 바뀌어 있어 Aptana3가 실행이 되지 않고 다음 에러를 뿌립니다.</p>
-<p>“Could not launch the product because the specifie]]>
+    
+      &lt;p&gt;한글 계정명 이거나 한글 윈도우7을 쓰면 user폴더 이름이 ‘사용자’로 바뀌어 있어 Aptana3가 실행이 되지 않고 다음 에러를 뿌립니다.&lt;/p&gt;
+&lt;p&gt;“Could not launch the product because the specifie
+    
     </summary>
     
       <category term="Tech information" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/Tech-information/"/>
     
+    
   </entry>
   
   <entry>
-    <title><![CDATA[웹소켓(Web Socket)에 대한 이해]]></title>
+    <title>웹소켓(Web Socket)에 대한 이해</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/03/11/websocket/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/03/11/websocket/</id>
     <published>2011-03-11T06:12:26.000Z</published>
     <updated>2015-11-11T05:50:55.942Z</updated>
+    
     <content type="html"><![CDATA[<p>HTML5에 추가된 요소중 웹소킷이 무엇인가에 대해 한방에 궁금증을 해결해줄수 있는 주옥같은 설명!</p>
 <p>그외에도 아주 좋은 정보들이 쉽게 설명 되어있네요!</p>
 <p><a href="http://m.mkexdev.net/98" title="새창" target="_blank" rel="external">http://m.mkexdev.net/98</a></p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p>HTML5에 추가된 요소중 웹소킷이 무엇인가에 대해 한방에 궁금증을 해결해줄수 있는 주옥같은 설명!</p>
-<p>그외에도 아주 좋은 정보들이 쉽게 설명 되어있네요!</p>
-<p><a href="http://m.mkexdev.net/98" titl]]>
+    
+      &lt;p&gt;HTML5에 추가된 요소중 웹소킷이 무엇인가에 대해 한방에 궁금증을 해결해줄수 있는 주옥같은 설명!&lt;/p&gt;
+&lt;p&gt;그외에도 아주 좋은 정보들이 쉽게 설명 되어있네요!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://m.mkexdev.net/98&quot; titl
+    
     </summary>
     
       <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
     
+    
   </entry>
   
   <entry>
-    <title><![CDATA[웹개발 소스 공유 jsfiddle 테스트]]></title>
+    <title>웹개발 소스 공유 jsfiddle 테스트</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2011/02/06/jsfiddle/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2011/02/06/jsfiddle/</id>
     <published>2011-02-07T04:46:11.000Z</published>
     <updated>2015-11-11T05:52:51.794Z</updated>
+    
     <content type="html"><![CDATA[<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/pborreli/pJgyu/embedded/"></iframe>
 
 <p>결과까지 한눈에 볼수 있어 좋은것 같은데 iframe 형식인게 조금 아쉽네요. 경우에 따라서 취사 선별해서 써야할듯.</p>
 <p><a href="http://jsfiddle.net/pborreli/pJgyu/" target="_blank" rel="external">http://jsfiddle.net/pborreli/pJgyu/</a></p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<iframe style="width: 100%; height: 300px" src="http://jsfiddle.net/pborreli/pJgyu/embedded/"></iframe>
+    
+      &lt;iframe style=&quot;width: 100%; height: 300px&quot; src=&quot;http://jsfiddle.net/pborreli/pJgyu/embedded/&quot;&gt;&lt;/iframe&gt;
 
-<p>결과까지 한눈에 볼수 있어 좋은것 같은데 iframe 형식]]>
+&lt;p&gt;결과까지 한눈에 볼수 있어 좋은것 같은데 iframe 형식
+    
     </summary>
     
       <category term="HTML/CSS" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/"/>
@@ -305,14 +355,16 @@
     
       <category term="jQuery" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/HTML-CSS/Javascript/jQuery/"/>
     
+    
   </entry>
   
   <entry>
-    <title><![CDATA[JavaScript loader Head.js 자바스크립트를 빠르게 로딩하자.]]></title>
+    <title>JavaScript loader Head.js 자바스크립트를 빠르게 로딩하자.</title>
     <link href="http://itsmagic.co.kr/hexo-theme-icarus/2010/12/13/javascript-loader-head-js/"/>
     <id>http://itsmagic.co.kr/hexo-theme-icarus/2010/12/13/javascript-loader-head-js/</id>
     <published>2010-12-14T01:25:17.000Z</published>
     <updated>2015-11-11T05:56:18.354Z</updated>
+    
     <content type="html"><![CDATA[<p><img src="http://i.imgur.com/u33Xnmr.jpg" alt=""></p>
 <p>이미 아는분들을 아는 head.js를 직접 써봤습니다. 결과는 빠르네요!</p>
 <p>모바일 페이지를 연습 삼아 작업에 들어갔는데 jQuery 라이브러리와 jQuery모바일 라이브러리만 로드 시켰을뿐인데 로딩 속도가 아이폰에서 급감하는것을 발견. head.js가 바로 생각났습니다. 적용시켜보니 역시 느린 모바일에선 티가 많이 나는군요. 물론 웹에서도 효과가 충분한것 같습니다.</p>
@@ -328,11 +380,17 @@
 <p>다운로드 및 자세한 사항은 <a href="http://headjs.com/" title="새창으로 열림" target="_blank" rel="external">개발 사이트</a>에서 확인 가능합니다.</p>
 <p><strong>* 모바일에 사용해본 결과 단순히 저렇게 불러들일시 jQueury모바일이나 JQTOUCH를 head로 로딩할시 DOM이 뼈다귀처럼 로딩이 된후 솔루션들이 먹히는 단점이 있군요.</strong></p>
 ]]></content>
+    
     <summary type="html">
-    <![CDATA[<p><img src="http://i.imgur.com/u33Xnmr.jpg" alt=""></p>
-<p>이미 아는분들을 아는 head.js를 직접 써봤습니다. 결과는 빠르네요!</p>
-<p>모바일 페이지를 연습 삼아 작업에 들어갔는데 jQuery ]]>
+    
+      &lt;p&gt;&lt;img src=&quot;http://i.imgur.com/u33Xnmr.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;이미 아는분들을 아는 head.js를 직접 써봤습니다. 결과는 빠르네요!&lt;/p&gt;
+&lt;p&gt;모바일 페이지를 연습 삼아 작업에 들어갔는데 jQuery 
+    
     </summary>
+    
+      <category term="Javascript" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/Javascript/"/>
+    
     
       <category term="jQuery" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/jQuery/"/>
     
@@ -341,8 +399,6 @@
       <category term="로딩속도개선" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/%EB%A1%9C%EB%94%A9%EC%86%8D%EB%8F%84%EA%B0%9C%EC%84%A0/"/>
     
       <category term="자바스크립트" scheme="http://itsmagic.co.kr/hexo-theme-icarus/tags/%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8/"/>
-    
-      <category term="Javascript" scheme="http://itsmagic.co.kr/hexo-theme-icarus/categories/Javascript/"/>
     
   </entry>
   
